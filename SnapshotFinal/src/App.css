@@ -1,0 +1,90 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+h1 {
+  color: rgb(4, 4, 95);
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+}
+
+#category {
+  margin-top: 30px;
+  color: white;
+  margin-left: 17px;
+}
+
+input {
+  padding: 5px;
+  width: 250px;
+  margin-left: 55px;
+}
+
+button {
+  padding: 4px;
+  cursor: pointer;
+  position: relative;
+  right: 25px;
+  background-color: rgb(51, 51, 132);
+  color: #fff;
+}
+
+span {
+  padding: 8px;
+  margin-left: 10px;
+  background-color: rgb(108, 232, 108);
+  cursor: pointer;
+}
+
+#images {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+img {
+  width: 250px;
+  margin: 3px;
+  height: 150px
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.div-images:hover{
+    transform: scale(1.5);
+}
